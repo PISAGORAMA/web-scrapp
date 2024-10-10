@@ -50,5 +50,5 @@ def search_person(first_name, last_name):
         driver.quit()
 
 # Kullanım örneği
-search_person("Can","Çalışkan")
+search_person("Name","Surname")
 
