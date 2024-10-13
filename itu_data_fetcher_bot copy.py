@@ -25,7 +25,7 @@ def search_person(first_name, last_name):
         last_name_input.send_keys(last_name)
         last_name_input.submit()
 
-        # Arama sonuçlarının yüklenmesini bekle
+        
         WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.XPATH, "//table[@class='table table-hover search-result-table']//tbody//tr"))
         )
